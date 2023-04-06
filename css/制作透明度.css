@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.box1{
+	width:980px;
+	height:390px;}
+.box2,.box3{
+	width:980px;
+	height:190px;
+	overflow:hidden;}
+.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11{
+	width:220px;
+	height:160px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;}
+.b4,.b6,.b8,.b10{
+	background-image:url(../image/1.jpg);}			
+.b5,.b9{
+	background-image:url(../image/2.jpg);}
+.b7,.b11{
+	background-image:url(../image/4.jpg);}
+.tm{
+	width:130px;
+	height:130px;
+	border-radius:65px;
+	margin:15px auto;
+	background-color:rgba(0,0,0,0.5);
+	font-family:"微软雅黑";
+	font-size:10px;
+	line-height:20px;
+	text-align:center;
+	color:#FFFFFF;
+	}
+.b4 .tm h1,.b5 .tm h1,.b6 .tm h1,.b7 .tm h1,.b8 .tm h1,.b9 .tm h1,.b10 .tm h1,.b11 .tm h1{
+	margin-top:15px;}	
+.b4 .tm hr,.b5 .tm hr,.b6 .tm hr,.b7 .tm hr,.b8 .tm hr,.b9 .tm hr,.b10 .tm hr,.b11 .tm hr{
+	width:90px;
+	margin-top:-5px;}	
+.b4 .tm p,.b5 .tm p,.b6 .tm p,.b7 .tm p,.b8 .tm p,.b9 .tm p,.b10 .tm p,.b11 .tm p{
+	margin-top:8px;}	
